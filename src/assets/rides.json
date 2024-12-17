@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Pirates of the Caribbean",
+        "park": "Disneyland",
+        "image": "https://live.staticflickr.com/5147/5639153165_6bc13af530_h.jpg"
+    }, {
+        "id": 2,
+        "name": "Jurassic Park",
+        "park": "Universal Studios Hollywood",
+        "image": "https://live.staticflickr.com/448/18169982934_b19ee24608_h.jpg"
+    }, {
+        "id": 3,
+        "name": "Flight of Passage",
+        "park": "Disney's Animal Kingdom",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Avatar_Flight_of_Passage_%2833825577724%29.jpg"
+    }, {
+        "id": 4,
+        "name": "Master Blaster",
+        "park": "Schlitterbahn",
+        "image": "https://i0.wp.com/allthewriteplaces.com/wp-content/uploads/2018/06/snbw-masterblaster.jpg?resize=1200%2C1200&ssl=1"
+    }
+]
