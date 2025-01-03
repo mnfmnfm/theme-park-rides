@@ -1,5 +1,8 @@
 import rides from './assets/rides.json'
 import './App.css'
+import { Link, Route, Routes } from 'react-router'
+import About from './About'
+import Home from './Home'
 
 function App() {
 
@@ -7,15 +10,16 @@ function App() {
     <div className="container">
       <header>
         <h1>Theme Park Rides</h1>
-        <br />
+        <nav>
+          <Link to="/">Home</Link>
+          <Link to="/about">About This Site</Link>
+        </nav>
       </header>
       <main>
-        {rides.map(r => <div key={r.id} className="card">
-          <div className="card-body">
-          <h2 className="card-title">{r.name}</h2>
-          <p className="card-text">Located at {r.park}</p>
-          </div>
-        </div>)}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
       </main>
     </div>
   )
