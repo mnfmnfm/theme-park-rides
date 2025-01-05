@@ -2,6 +2,7 @@ import './App.css'
 import { Link, Route, Routes } from 'react-router'
 import About from './About'
 import Home from './Home'
+import Ride from './Ride'
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          {/* TODO: add route for each ride */}
+          <Route path="/rides/:id" element={<Ride />} />
         </Routes>
       </main>
     </div>
