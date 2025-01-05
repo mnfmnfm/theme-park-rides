@@ -1,4 +1,3 @@
-import rides from './assets/rides.json'
 import './App.css'
 import { Link, Route, Routes } from 'react-router'
 import About from './About'
@@ -19,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          {/* TODO: add route for each ride */}
         </Routes>
       </main>
     </div>
