@@ -74,3 +74,11 @@ button:focus-visible {
 .container {
   min-height: 100vh;
 }
+
+main p {
+  margin: 15px;
+}
+
+.card {
+  margin: 10px 0;
+}
